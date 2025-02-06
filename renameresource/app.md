@@ -100,3 +100,14 @@ employee = {
     "skills": ["Python", "Docker"]
 }
 ```
+### Methods for Each Data Type
+
+#### String Methods
+
+```
+text = "DevOps Engineer"
+print(text.upper())  # DEVOPS ENGINEER
+print(text.lower())  # devops engineer
+print(text.replace("Engineer", "Specialist"))  # DevOps Specialist
+print(text.split(" "))  # ['DevOps', 'Engineer']
+```
