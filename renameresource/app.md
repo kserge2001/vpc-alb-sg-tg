@@ -1,4 +1,4 @@
-# Comprehensive Python Scripting Guide for DevOps Engineers
+# Python Scripting Guide for DevOps Engineers
 
 Python is a versatile and powerful programming language that is widely used in the DevOps world for automation, scripting, and managing infrastructure. This document will guide you through the essential Python concepts with example code tailored for DevOps engineers.
 
