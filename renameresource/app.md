@@ -40,7 +40,15 @@ sudo apt-get install python3
 
 Create a virtual environment to manage dependencies:
 
-```
+```bash
 python3 -m venv myenv
 source myenv/bin/activate  # On Windows: myenv\Scripts\activate
+
+
+## 3. Basic Python Syntax
+
+### Hello World
+
+```
+print("Hello, World!")
 ```
