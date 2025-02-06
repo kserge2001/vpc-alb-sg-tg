@@ -182,7 +182,8 @@ print(salary_int)  # 75000
 ### 5. Control Structures
 
 #### If-Else
-
+ The if statement is used to make decision base on specific conditions.
+ 
 ```
 age = 20
 if age >= 18:
