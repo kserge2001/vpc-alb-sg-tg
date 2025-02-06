@@ -52,3 +52,51 @@ source myenv/bin/activate  # On Windows: myenv\Scripts\activate
 ```
 print("Hello, World!")
 ```
+### Comment 
+
+```
+# This is a single-line comment
+
+"""
+This is a
+multi-line comment
+"""
+```
+## 4. Variables and Data Types
+
+### Variables
+
+```
+name = "DevOps Engineer"
+experience = 5
+is_certified = True
+```
+
+### Data Types
+
+```
+# String
+name = "John Doe"
+
+# Integer
+age = 30
+
+# Float
+salary = 75000.50
+
+# Boolean
+is_employed = True
+
+# List
+skills = ["Python", "Docker", "Kubernetes"]
+
+# Tuple
+certifications = ("AWS", "Azure", "GCP")
+
+# Dictionary
+employee = {
+    "name": "John Doe",
+    "age": 30,
+    "skills": ["Python", "Docker"]
+}
+```
