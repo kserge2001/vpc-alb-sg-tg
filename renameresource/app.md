@@ -42,4 +42,5 @@ Create a virtual environment to manage dependencies:
 
 ```
 python3 -m venv myenv
-source myenv/bin/activate  # On Windows: myenv\Scripts\activate```
+source myenv/bin/activate  # On Windows: myenv\Scripts\activate
+```
