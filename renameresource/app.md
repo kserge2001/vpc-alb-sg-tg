@@ -161,4 +161,34 @@ print(text[7:])  # Engineer
 skills = ["Python", "Docker", "Kubernetes", "Terraform"]
 print(skills[1:3])  # ['Docker', 'Kubernetes']
 ```
+#### Type Casting
+
+```
+# Integer to String
+age = 30
+age_str = str(age)
+print(type(age_str))  # <class 'str'>
+
+# String to Integer
+age_str = "30"
+age_int = int(age_str)
+print(type(age_int))  # <class 'int'>
+
+# Float to Integer
+salary = 75000.50
+salary_int = int(salary)
+print(salary_int)  # 75000
+```
+### 5. Control Structures
+
+#### If-Else
+
+```
+age = 20
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+```
+
 
