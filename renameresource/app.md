@@ -111,3 +111,54 @@ print(text.lower())  # devops engineer
 print(text.replace("Engineer", "Specialist"))  # DevOps Specialist
 print(text.split(" "))  # ['DevOps', 'Engineer']
 ```
+#### List Methods
+
+```
+skills = ["Python", "Docker", "Kubernetes"]
+skills.append("Terraform")  # Add an item
+print(skills)  # ['Python', 'Docker', 'Kubernetes', 'Terraform']
+skills.remove("Docker")  # Remove an item
+print(skills)  # ['Python', 'Kubernetes', 'Terraform']
+print(skills[0])  # Python
+```
+#### Dictionary Methods
+
+```
+employee = {
+    "name": "John Doe",
+    "age": 30,
+    "skills": ["Python", "Docker"]
+}
+print(employee.keys())  # dict_keys(['name', 'age', 'skills'])
+print(employee.values())  # dict_values(['John Doe', 30, ['Python', 'Docker']])
+employee.update({"age": 31})  # Update a value
+print(employee)  # {'name': 'John Doe', 'age': 31, 'skills': ['Python', 'Docker']}
+```
+
+#### Tuple Methods
+
+```
+certifications = ("AWS", "Azure", "GCP")
+print(certifications.count("AWS"))  # 1
+print(certifications.index("Azure"))  # 1
+```
+
+#### f-Strings (Formatted String Literals)
+
+```
+name = "John"
+age = 30
+print(f"My name is {name} and I am {age} years old.")
+
+```
+#### Slicing
+
+```
+text = "DevOps Engineer"
+print(text[0:6])  # DevOps
+print(text[7:])  # Engineer
+
+skills = ["Python", "Docker", "Kubernetes", "Terraform"]
+print(skills[1:3])  # ['Docker', 'Kubernetes']
+```
+
